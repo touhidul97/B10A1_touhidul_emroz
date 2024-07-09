@@ -4,12 +4,10 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-/* ----------------------------------------------------------------- */
+
 /* shared style */
 
-/* ------------------------------------------------------------------ */
 /* nav style */
-
 nav {
   display: flex;
   align-items: center;
@@ -38,18 +36,16 @@ nav ul {
   list-style: none;
 }
 .btn {
-  /* Download Resume */
   position: static;
   width: 180px;
   height: 24px;
-  /* Auto layout */
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 17px 24px 17px 24px;
 
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -66,14 +62,9 @@ nav ul {
   border-radius: 8px;
 }
 
-/* ---------------------------------------------------- */
-
 /* first section  */
-
 .bg-first-section {
   background: url(../assets/Hero-bg.png);
-  /* Hero-bg */
-  position: absolute;
   width: 1440px;
   height: 652px;
   left: 0;
@@ -94,29 +85,24 @@ nav ul {
   font-size: 25px;
   font-weight: 800;
   line-height: 68px;
-  letter-spacing: 0%;
   text-align: center;
 }
 
 .first-section-image {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .first-section-details {
   position: static;
   width: 852px;
   height: 52px;
-  /* Auto layout */
+
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: ce;
   align-items: center;
-  padding: 0px;
-
-  /* Inside Auto Layout */
   flex: none;
   order: 1;
-  flex-grow: 0;
   margin: 24px 0px;
 
   opacity: 0.7;
@@ -130,7 +116,138 @@ nav ul {
   text-align: center;
   display: flex;
   justify-content: center;
+}
 
-  rgb(13, 19, 33)
+.first-section-btn {
+  width: 208px;
+  height: 66px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 24px 21px 24px;
 
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+
+  border-radius: 8px;
+
+  background: rgb(13, 19, 33);
+
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+}
+
+/* second section div */
+
+.second-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  margin-left: 148px;
+  margin-top: 74px;
+  margin-right: 152px;
+}
+
+.second-section-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.second-section-details {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 852px;
+}
+
+.second-first-div {
+  border-radius: 16px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  /* Frame 8 */
+  position: relative;
+  width: 800px;
+  height: 200px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 48px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-left: 97px;
+  margin-top: 80px;
+  margin-right: 97px;
+}
+
+.second-first-div-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.second-first-div-detals {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.second-first-div-one-btn {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  background-color: white;
+  color: rgb(24, 27, 34)
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.second-first-div-two img {
+    height: 140px;
+}
+
+.second-first-div-detals {
+    width: 450px;
 }
