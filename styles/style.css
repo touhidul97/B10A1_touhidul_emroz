@@ -528,3 +528,51 @@ margin: 0px 24px;
   justify-content: center;
   align-items: center;
 }
+
+/* ---------------------------------------------------------------- */
+
+.section-5 {
+  position: static;
+  width: 1140px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the start vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 0px;
+  font-family: Azeret Mono;
+  margin: 111px auto; /* Center the section itself horizontally */
+}
+
+.section-5-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center;
+  margin-top: 20px; /* Adjust the value to position nearly at the top */
+}
+
+.section-5-common {
+
+position: static;
+width: 1140px;
+height: 120px;
+padding: 30px;
+margin: 20px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.section-5-common-2 {
+  width: 897px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
