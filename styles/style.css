@@ -40,6 +40,7 @@ nav ul {
   position: static;
   width: 180px;
   height: 24px;
+  cursor: pointer;
 
   display: flex;
   flex-direction: row;
@@ -245,6 +246,7 @@ nav ul {
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
+  cursor: pointer;
 }
 
 .second-first-div-two img {
@@ -311,6 +313,7 @@ nav ul {
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
+  cursor: pointer;
 }
 
 /* ------------------------------------------------------------- */
@@ -381,6 +384,7 @@ nav ul {
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
+  cursor: pointer;
 }
 
 .second-third-div-two img {
@@ -715,6 +719,7 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+cursor: pointer;
 
 
 /* Inside Auto Layout */
@@ -756,4 +761,8 @@ footer h3 {
 
 footer div {
   padding-right: 150px;
+}
+
+.linkkkkkkkkk{
+  color: #000;
 }
